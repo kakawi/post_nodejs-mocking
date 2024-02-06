@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "ES2022",
+    "module": "commonjs",
+    "lib": ["ES2022"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "typeRoots": ["./node_modules/@types", "./typings"],
+    "removeComments": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts", "src/service/DepartmentService-jest.test.ts"],
+  "exclude": ["src/**/*.test.ts*", "src/**/*.spec.ts*"]
+}

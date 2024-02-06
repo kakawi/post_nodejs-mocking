@@ -1,0 +1,19 @@
+{
+  "name": "unit-testing-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@johanblumenberg/ts-mockito": "^1.0.41",
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "sinon": "^17.0.1",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
