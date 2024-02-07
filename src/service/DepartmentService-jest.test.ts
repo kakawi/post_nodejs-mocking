@@ -61,11 +61,11 @@ describe("Department Service", () => {
     expect(departmentRepository.getDepartment).toHaveBeenCalledWith(
       departmentId
     );
-    // expect(notificationServiceMock.sendMessage).toHaveBeenCalledWith(
-    //   department,
-    //   employee,
-    //   input.message
-    // );
+    expect(notificationService.sendMessage).toHaveBeenCalledWith(
+      department,
+      employee,
+      input.message
+    );
     expect(notificationService.sendAlert).not.toHaveBeenCalled();
   });
 
